@@ -12,9 +12,9 @@ Hybrid two-stage and SA search algorithm, to solve the problem of doctor schedul
 
 - A doctor who is off duty and still has a patient on hand should finish the service of the patient before leaving his or her work.
 
-- Emergency physicians can only commute at the beginning or end of each session. The patient queue is subject to the first come, first served rule (FCFS), assuming that there are no patients who leave without being served. The whole system can be thought of as a $𝑀_𝑡$ /$𝑀$ / $𝑝_𝑡$ queuing system (including $𝑝_𝑡$ needs to be determined by the doctor roaster).
+- Emergency physicians can only commute at the beginning or end of each session. The patient queue is subject to the first come, first served rule (FCFS), assuming that there are no patients who leave without being served. The whole system can be thought of as a $𝑀_𝑡$ / $𝑀$ / $𝑝_𝑡$ queuing system (including $𝑝_𝑡$ needs to be determined by the doctor roaster).
 
-- There are $N$ ($N$ = 15)doctors in the emergency department
+- There are $N$ ($N = 15$) doctors in the emergency department
 
 - Each doctor is allowed a maximum of two day shifts, or 1 night shift 24 hours a day starting at midnight
 
